@@ -1,0 +1,11 @@
+th {
+  cursor: pointer;
+}
+
+th.th-sort-asc::after {
+  content: "\25b4";
+}
+
+th.th-sort-desc::after {
+  content: "\25be";
+}
